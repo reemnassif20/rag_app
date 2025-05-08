@@ -14,7 +14,7 @@
 
 1.  **Clone the repository**
 
-2.  **Create a virtual environment (recommended):**
+2.  **Create a virtual environment (optional):**
     ```bash
     python -m venv venv
     source venv/bin/activate  # On Windows: venv\Scripts\activate
