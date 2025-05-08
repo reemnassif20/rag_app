@@ -27,7 +27,7 @@
 
 ### Configuration
 
-The main configuration is in <mcfile name="config.py" path="e:\rag_app\src\config.py"></mcfile>.
+The main configuration is in `config.py`
 . You can modify the following:
 
 *   `OLLAMA_BASE_URL`: The base URL for your Ollama instance (default: `"http://localhost:11434"`).
