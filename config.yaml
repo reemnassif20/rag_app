@@ -1,0 +1,41 @@
+# Document Intelligence Application Configuration
+
+# Ollama Model Settings
+ollama:
+  base_url: "http://localhost:11434"
+  model: "qwen3:0.6b"
+  temperature: 0.1
+  context_window: 2048
+  timeout: 120
+
+# Storage Configuration
+storage:
+  vectorstore_path: "vectorstore.faiss"
+  upload_dir: "uploaded_files"
+  log_dir: "logs"
+  backup_dir: "backups"
+
+# Document Processing Settings
+document_processing:
+  chunk_size: 1000
+  chunk_overlap: 200
+  supported_extensions:
+    - ".pdf"
+    - ".docx"
+    - ".txt"
+    - ".csv"
+    - ".pptx"
+    - ".md"
+    - ".html"
+
+# Retrieval Parameters
+retrieval:
+  k_documents: 4           # Number of documents to retrieve per query
+  similarity_threshold: 0.7 # Minimum similarity score for relevant documents
+
+# UI Customization
+ui:
+  theme: "dark"            # Options: "dark" or "light"
+  max_history_items: 50    # Maximum number of chat exchanges to store
+  default_page_title: "Document Intelligence"
+  color_scheme: "purple"   # Options: "purple", "blue", "teal", "amber"
