@@ -22,8 +22,8 @@ DocumentQA is a lightweight, efficient application that lets you ask questions a
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/reemnassif02/documentqa.git
-   cd documentqa
+   git clone https://github.com/reemnassif02/rag_app
+   cd rag_app
    ```
 
 2. **Create a virtual environment (recommended)**
